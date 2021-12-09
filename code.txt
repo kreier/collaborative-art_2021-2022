@@ -1,0 +1,38 @@
+function setup() {
+  createCanvas(400, 400);
+  background(255);
+  
+  //add your shapes below your name
+  //if you want, add some random elements to it for more chaos lol
+  
+  //Matthew
+  noStroke()
+  fill(253, 253, 150)
+  circle(random(0,400), random(0,400), random(30,70))
+  
+  //Tin Tin
+  
+  //Kenneth
+  
+  //Shayan
+  
+  //Kenny
+  
+  //Lam
+  
+  //Connor
+  
+  //Khoa
+  
+  //Alice
+  
+  //Vanessa
+  
+  //Jack
+  
+  //Bona
+  
+  //Vannak
+  
+  
+}
