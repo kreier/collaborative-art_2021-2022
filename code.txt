@@ -84,3 +84,8 @@ function draw(){
   }
   ellipse(250, 100, 20, 80);
 }
+
+let c = color(255, 204, 0);
+fill(c);
+noStroke();
+ellipse(25, 25, 80, 80); 
