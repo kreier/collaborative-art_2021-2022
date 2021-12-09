@@ -33,7 +33,12 @@ function setup() {
   
     
   //Kenneth
-    
+  strokeWeight(10)
+  r = random(0,255)
+  g = random(0,255)
+  b = random(0,255)
+  fill(r,g,b)
+  rect(random(10,150), random(50, 100), random(10,150), random(50,100))
   
   //Shayan
   fill(Math.floor(random(0,256)), Math.floor(random(0,256)), Math.floor(random(0,256)));
@@ -55,11 +60,14 @@ noStroke();
 ellipse(25, 25, 80, 80); 
 
   //Khoa
-  
-  //Alice
   noStroke()
   fill(256, 0, 0)
   rect(random(200, 300), random(200, 300), 60, 40);
+  
+  //Alice
+  fill(255, 204, 0);
+  noStroke();
+  ellipse(25, 25, 80, 80); 
   
   //Vanessa
   
@@ -72,13 +80,8 @@ ellipse(25, 25, 80, 80);
    let ellipseWidth = random(0,100)
     let ellipseHeight = random(0,100)
     ellipse(startpointX, startpointY, ellipseWidth,ellipseHeight)
-  
-  
-  
-  //i don't know who's shape this is
-  fill(255, 204, 0);
-  noStroke();
-  ellipse(25, 25, 80, 80); 
+ 
+ 
 }
 
 //Alice
