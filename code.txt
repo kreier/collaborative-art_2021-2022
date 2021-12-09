@@ -68,8 +68,30 @@ function setup() {
     let ellipseHeight = random(0,100)
     ellipse(startpointX, startpointY, ellipseWidth,ellipseHeight)
   //Vannak
+  let points = []
+ let density = 50
+  let space = 400 / density
+
+  for (var x = 0; x < 400; x += space) {
+    for (var y = 0; y < 400; y += space) {
+      let p = createVector(x, y)
+      points.push(p)
+    
+    }
+  }
+}
+
+function draw() {
+ noStroke()
+  fill(255)
   
+  for (let i = 0; i < points.length; i++){
+    
+    ellipse (points[i].x, points[i].y,0.5
+                                                   )}
   
+}
+  IM SORRY 
 }
 }
 
