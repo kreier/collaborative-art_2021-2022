@@ -1,5 +1,17 @@
 function setup() {
   createCanvas(400, 400);
+  //Connor
+  color1 = color(225,0,0);
+  color2 = color(0,0,225);
+  color3 = color(0,225,0)
+  
+
+  for(let a=1; a<height; a++){
+    m = map(a,3,height,0,1);
+    let background = lerpColor(color1, color2, m)
+    stroke(background);
+    line(0,a,width,a);
+    }
  
   
   //add your shapes below your name
@@ -17,17 +29,7 @@ function setup() {
   triangle(startpointX,startpointY,startpointX+random(0,50),startpointY+random(0,100),startpointX+random(0,100),startpointY+random(0,100))
   
   
-  //Connor
-   color1 = color(225,0,0);
-  color2 = color(0,0,225);
-  color3 = color(0,225,0)
   
-
-  for(let a=1; a<height; a++){
-    m = map(a,3,height,0,1);
-    let background = lerpColor(color1, color2, m)
-    stroke(background);
-    line(0,a,width,a);
     
   //Kenneth
     
@@ -65,4 +67,4 @@ function setup() {
   
   
 }
-}
+
