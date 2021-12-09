@@ -49,7 +49,10 @@ function setup() {
   arc(210, 300, 200, 69, QUARTER_PI, PI + QUARTER_PI);
   
   //Lam
-  
+  let c = color(255, 204, 0);
+fill(c);
+noStroke();
+ellipse(25, 25, 80, 80); 
 
   //Khoa
   
