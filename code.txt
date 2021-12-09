@@ -61,7 +61,9 @@ function setup() {
   //Jack
   
   //Bona
-  
+   let ellipseWidth = random(0,100)
+    let ellipseHeight = random(0,100)
+    ellipse(startpointX, startpointY, ellipseWidth,ellipseHeight)
   //Vannak
   
   
