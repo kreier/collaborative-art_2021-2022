@@ -20,6 +20,13 @@ function setup() {
   
   //Kenny
   
+  stroke(10)
+  fill(225, 100, 20)
+  arc(215, 150, 150, 80,QUARTER_PI, PI + QUARTER_PI);
+
+  stroke(1)
+  arc(210, 300, 200, 69, QUARTER_PI, PI + QUARTER_PI);
+  
   //Lam
   
   //Connor
