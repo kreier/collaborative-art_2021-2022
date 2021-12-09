@@ -15,6 +15,8 @@ function setup() {
   //Kenneth
   
   //Shayan
+  fill(Math.floor(random(0,256)), Math.floor(random(0,256)), Math.floor(random(0,256)));
+  square(30, 20, 55);
   
   //Kenny
   
