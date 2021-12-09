@@ -59,6 +59,9 @@ function setup() {
   //Vanessa
   
   //Jack
+  noStroke()
+  fill(256, 200, 210)
+  triangle(random(130, 200), random(300, 500), 60, 40,50,70);
   
   //Bona
    let ellipseWidth = random(0,100)
