@@ -69,10 +69,13 @@ function setup() {
    let ellipseWidth = random(0,100)
     let ellipseHeight = random(0,100)
     ellipse(startpointX, startpointY, ellipseWidth,ellipseHeight)
-  //Vannak
   
   
-
+  
+  //i don't know who's shape this is
+  fill(255, 204, 0);
+  noStroke();
+  ellipse(25, 25, 80, 80); 
 }
 
 //Alice
@@ -83,9 +86,24 @@ function draw(){
     timer = millis();
   }
   ellipse(250, 100, 20, 80);
+  
+//Vannak
+  let points = []
+ let density = 50
+  let space = 400 / density
+
+  for (var x = 0; x < 400; x += space) {
+    for (var y = 0; y < 400; y += space) {
+      let p = createVector(x, y)
+      points.push(p)
+    
+    }
+  }
+  noStroke()
+  fill(255)
+  
+  for (let i = 0; i < points.length; i++){
+    ellipse (points[i].x, points[i].y,0.5)
+  }
 }
 
-let c = color(255, 204, 0);
-fill(c);
-noStroke();
-ellipse(25, 25, 80, 80); 
