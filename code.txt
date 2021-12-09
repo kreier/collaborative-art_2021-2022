@@ -11,6 +11,10 @@ function setup() {
   circle(random(0,400), random(0,400), random(30,70))
   
   //Tin Tin
+  fill(50,159,231)
+  let startpointX = random(0,300) 
+  let startpointY = random(0,300)
+  triangle(startpointX,startpointY,startpointX+random(0,50),startpointY+random(0,100),startpointX+random(0,100),startpointY+random(0,100))
   
   //Kenneth
   
