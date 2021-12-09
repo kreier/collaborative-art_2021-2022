@@ -23,6 +23,9 @@ function setup() {
   //Connor
   
   //Khoa
+  noStroke()
+  fill(256, 0, 0)
+  rect(random(200, 300), random(200, 300), 60, 40);
   
   //Alice
   
