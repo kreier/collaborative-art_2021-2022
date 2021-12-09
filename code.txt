@@ -1,3 +1,4 @@
+let timer = 0;
 function setup() {
   createCanvas(400, 400);
  
@@ -49,11 +50,11 @@ function setup() {
   
 
   //Khoa
+  
+  //Alice
   noStroke()
   fill(256, 0, 0)
   rect(random(200, 300), random(200, 300), 60, 40);
-  
-  //Alice
   
   //Vanessa
   
@@ -65,4 +66,14 @@ function setup() {
   
   
 }
+}
+
+//Alice
+function draw(){
+  noStroke();
+  if (millis() >= 2000+timer) {
+    fill(random(150,200),random(0, 50),random(50, 150));
+    timer = millis();
+  }
+  ellipse(250, 100, 20, 80);
 }
